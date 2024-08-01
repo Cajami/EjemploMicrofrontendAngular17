@@ -1,0 +1,4 @@
+{
+    "mf-products": "http://localhost:4201/remoteEntry.json",
+    "mf-users": "http://localhost:4202/remoteEntry.json"
+}
