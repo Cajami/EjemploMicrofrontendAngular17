@@ -95,3 +95,16 @@ Ahora navegaremos a alguna de las rutas definidas:
 ![image](https://github.com/user-attachments/assets/498c37dd-81e3-4714-8cbe-553b0c9d8e03)
 
 Como pueden validar, aunque los microfrontends se ejecutaron sobre los puertos 4201 y 4202, los componentes se están renderizando sobre el puerto 4200 que es de host-app. 
+
+# Pryectos separados:
+
+Pueden aprecisar que cada proyecto es individual, solo para explicar este tema utilicé un solo git que abarca los 3 proyectos, pero claramente pueden tener un git por cada proyecto.
+Este ejemplo es diferente a como se explica la mayoría en la red, ya que ahí explican que cada proyecto deben agregarlo dentro de la carpeta projects, pero esto siempre me ha causado incomodida, ya que tener una carpeta
+
+proyecto-real (y aqui tendriamos el git)
+
+y dentro de esa carpeta exista una carpeta projects y dentro estén cada proyecto (host, mf1, mf2, etc), se tiene problemas con el git, ya que se tendría que utilizar submodulos de git, y ahí se complica la cosa
+
+Analicen el ejemplo y de seguro que hay muchos temas que podrian mejorarse.
+
+Uno de ellos es: como haces con las imagenes que están en los MF, ya que los MF se abrirán en el host, y el host no tiene dichas imagenes, pero bueno esto es tema para otro día....
